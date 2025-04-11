@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Love & Human Identity</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body class="bg-gradient-to-br from-pink-50 via-red-50 to-yellow-50 text-gray-800 font-sans scroll-smooth">
+
+  <header class="text-center py-12 animate__animated animate__fadeInDown">
+    <h1 class="text-4xl font-bold text-pink-700 mb-2">Love & Human Identity</h1>
+    <p class="text-lg text-gray-600">Exploring how love shapes the mind, the body, and who we are.</p>
+  </header>
+
+  <main class="max-w-6xl mx-auto px-6 space-y-20 pb-20">
+
+    <!-- TYPES OF LOVE -->
+    <section class="animate__animated animate__fadeInUp animate__delay-1s">
+      <h2 class="text-2xl font-semibold text-red-600 mb-6 text-center">Types of Love</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="bg-white p-6 rounded-xl shadow hover:scale-105 transition-transform duration-300">
+          <h3 class="font-bold text-lg text-pink-600 mb-2">Primary Types</h3>
+          <ul class="list-disc list-inside text-gray-700 space-y-1">
+            <li><strong>Eros</strong>: Passionate, romantic love</li>
+            <li><strong>Ludus</strong>: Game-playing love</li>
+            <li><strong>Storge</strong>: Friendship-based love</li>
+          </ul>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow hover:scale-105 transition-transform duration-300">
+          <h3 class="font-bold text-lg text-pink-600 mb-2">Secondary Types</h3>
+          <ul class="list-disc list-inside text-gray-700 space-y-1">
+            <li><strong>Mania</strong>: Obsessive (Eros + Ludus)</li>
+            <li><strong>Pragma</strong>: Practical (Storge + Ludus)</li>
+            <li><strong>Agape</strong>: Selfless (Eros + Storge)</li>
+          </ul>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow hover:scale-105 transition-transform duration-300">
+          <p class="text-gray-700">
+            Love manifests as a spectrum — not just for survival or reproduction but for emotional development and human connection.
+            <span class="italic text-sm block mt-2">— Davenport, 1992</span>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CHART SECTION -->
+    <section class="animate__animated animate__fadeInUp animate__delay-2s">
+      <h2 class="text-2xl font-semibold text-red-600 mb-6 text-center">Hormonal Activity During Love</h2>
+      <div class="bg-white p-6 rounded-xl shadow flex justify-center">
+        <canvas id="loveChart" width="400" height="250"></canvas>
+      </div>
+    </section>
+
+    <!-- BRAIN CHEMISTRY -->
+    <section class="animate__animated animate__fadeInUp animate__delay-3s">
+      <h2 class="text-2xl font-semibold text-red-600 mb-6 text-center">Chemical Reactions in Love</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="bg-white p-6 rounded-xl shadow">
+          <h3 class="font-bold text-lg text-pink-600 mb-2">Hormones at Play</h3>
+          <ul class="list-disc list-inside text-gray-700 space-y-1">
+            <li><strong>Oxytocin</strong>: Bonding, calmness</li>
+            <li><strong>Vasopressin</strong>: Long-term loyalty</li>
+            <li><strong>Serotonin</strong>: Drops during love, leading to anxiety</li>
+          </ul>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow">
+          <p class="text-gray-700 mb-4">
+            Love activates survival centers in the brain and shuts down critical judgment — creating the infamous “love is blind” state.
+            <span class="italic text-sm block mt-2">— Harvard Medical School, 2015</span>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- EFFECT ON IDENTITY -->
+    <section class="animate__animated animate__fadeInUp animate__delay-4s">
+      <h2 class="text-2xl font-semibold text-red-600 mb-6 text-center">Impact on Identity</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="bg-white p-6 rounded-xl shadow text-center hover:bg-pink-50 transition duration-300">
+          <div class="text-4xl text-pink-400 mb-2">🧠</div>
+          <h3 class="font-semibold text-lg mb-1">Cognition</h3>
+          <p class="text-gray-700">Love distorts or enhances perception of others.</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow text-center hover:bg-pink-50 transition duration-300">
+          <div class="text-4xl text-red-400 mb-2">💓</div>
+          <h3 class="font-semibold text-lg mb-1">Emotion</h3>
+          <p class="text-gray-700">Emotional spikes shape choices and attachment.</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow text-center hover:bg-pink-50 transition duration-300">
+          <div class="text-4xl text-yellow-400 mb-2">🧬</div>
+          <h3 class="font-semibold text-lg mb-1">Human Uniqueness</h3>
+          <p class="text-gray-700">Humans create long-term, non-survival-based bonds.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONCLUSION -->
+    <section class="text-center max-w-2xl mx-auto animate__animated animate__fadeInUp animate__delay-5s">
+      <h2 class="text-2xl font-semibold text-red-600 mb-4">Conclusion</h2>
+      <p class="text-gray-700 text-lg">
+        Love is a powerful force of identity — blending biology, psychology, and emotional truth to shape what it means to be human.
+      </p>
+    </section>
+
+    <!-- REFERENCES -->
+    <section class="mt-16 animate__animated animate__fadeInUp animate__delay-6s">
+      <h2 class="text-xl font-semibold text-gray-700 mb-4 text-center">References</h2>
+      <ul class="text-sm text-gray-600 space-y-2 text-center">
+        <li>Davenport, D. (1992). 
+          <a href="https://files.eric.ed.gov/fulltext/ED343066.pdf" class="underline text-blue-600">ERIC</a>
+        </li>
+        <li>Harvard Medical School (2015). 
+          <a href="https://hms.harvard.edu/news-events/publications-archive/brain/love-brain" class="underline text-blue-600">Love and the Brain</a>
+        </li>
+        <li>Novotney, A. (2023). 
+          <a href="https://www.apa.org/topics/marriage-relationships/brain-on-love" class="underline text-blue-600">APA</a>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <script>
+    const ctx = document.getElementById('loveChart').getContext('2d');
+    const loveChart = new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: ['Oxytocin', 'Vasopressin', 'Serotonin'],
+        datasets: [
+          {
+            label: 'Infatuation Phase',
+            data: [9, 3, 2],
+            backgroundColor: 'rgba(255, 99, 132, 0.6)'
+          },
+          {
+            label: 'Long-Term Bonding',
+            data: [6, 8, 6],
+            backgroundColor: 'rgba(54, 162, 235, 0.6)'
+          }
+        ]
+      },
+      options: {
+        responsive: true,
+        scales: {
+          y: { beginAtZero: true }
+        },
+        plugins: {
+          legend: {
+            position: 'top',
+          },
+        },
+      }
+    });
+  </script>
+</body>
+</html>
